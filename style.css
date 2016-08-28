@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.general {
+    margin: 15px auto;
+    border: 1px solid black;
+    width: 700px;
+    height: auto;
+    position: relative;
+    overflow: auto;
+}
+
+.flyingBalls {
+    width:  500px;
+    height: 500px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 150px;
+    border: 1px solid black;
+    position: relative;
+    /*float: right;*/
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 25px;
+    position: absolute;
+    /*Add animation*/
+    /*transition-property: top, left;
+    transition-duration: 400ms;*/
+}
+
+.ballForDrag {
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 25px;
+    position: absolute;
+    cursor: pointer;
+}
